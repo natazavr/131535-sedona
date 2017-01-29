@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Sedona</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="conteiner">
+           <div class="index-logo">
+            <a href=""><img src="img/logo.jpg"></a>
+            </div>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Фото и видео</a></li>
+                    <li><a href="#">Карта штата</a></li>
+                    <li><a href="#">Гостиницы</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main class="container"> 
+    <div class="filter">
+       <div class="infrastructure">
+           <h1>Инфраструктура</h1>
+           <label for="pool"><input type="checkbox" name="pool" checked>Бассеин</label>
+           <label for="parking"><input type="checkbox" name="parking">Парковка</label>
+           <label for="wifi"><input type="checkbox" name="wifi">Wi-fi</label>
+      </div>
+      <div class="type">
+           <h1>Тип жилья</h1>
+           <label for="hotel"><input type="checkbox" name="hotel" checked>Гостиница</label>
+           <label for="motel"><input type="checkbox" name="motel" checked>Мотель</label>
+           <label for="apart"><input type="checkbox" name="apart" checked>Апартаменты</label>
+      </div>   
+      <div class="price">
+          <h1>Стоимость в сутки (Р)</h1>
+          <span>от 0</span>
+          <span>до 3000</span>
+          <input type="range" min="0" max="100" step="1" value="50">
+          <input type="submit" value="Показать">
+      </div>
+      <div class="filter-list">
+          <span class="">Найдено:3</span>
+          <span class="sort">Сортировка</span>
+          <span class="price">По цене</span>
+          <span class="type">По типу</span>
+          <span class="rating">По рейтингу</span>
+      </div>
+    </div>
+    <section class="hotel-item">
+        <div class="hotel1">
+            <figure class="img1"><img src="img/photo-1.jpg"></figure>
+            <h1>Amara resort & spa</h1>
+            <span class="price">Гостиница</span>
+            <span class="price">от 4000 р.</span>
+            <div class="buttons"><a class="btn" href="#">Подробнее</a></div>
+            <div class="buttons"><a class="btn" href="#">Забронировать</a></div>
+            <div class="stars"><img src="img/photo-star.jpg"></div>
+            <div class="rating">Рейтинг:8,5</div> 
+        </div>
+        <div class="hotel2">
+            <figure class="img2"><img src="img/photo-2.jpg"></figure>
+            <h1>Desert Quail Inn</h1>
+            <span class="price">Мотель</span>
+            <span class="price">от 3000 р.</span>
+            <div class="buttons"><a class="btn" href="#">Подробнее</a></div>
+            <div class="buttons"><a class="btn" href="#">Забронировать</a></div>
+            <div class="stars"><img src="img/photo-star2.jpg"></div>
+            <div class="rating">Рейтинг:8,9</div> 
+        </div>
+        <div class="hotel3">
+            <figure class="img3"><img src="img/photo-3.jpg"></figure>
+            <h1>Villas at poco diablo</h1>
+            <span class="price">Апартаменты</span>
+            <span class="price">от 2000 р.</span>
+            <div class="buttons"><a class="btn" href="#">Подробнее</a></div>
+            <div class="buttons"><a class="btn" href="#">Забронировать</a></div>
+            <div class="stars"><img src="img/photo-star3.jpg"></div>
+            <div class="rating">Рейтинг:9,2</div> 
+        </div>
+     </section>
+</main>
+<footer class="main-footer">
+   <div class="container">
+        <div class="visit"><a href="#">#VISITSEDONA</a></div>
+        <div class="footer-social">
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </div>
+        <div class="footer-copyright">
+            <span>Website by</span>
+            <div class="index-logo2">
+            <a href=""><img src="img/logo2.jpg"></a>
+            </div>
+        </div>
+   </div>       
+</footer>
+</body>
+</html>
