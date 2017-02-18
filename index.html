@@ -27,7 +27,7 @@
         <main>
 
             <div class="main-img clear">
-
+                <img src="img/background.jpg">
 
             </div>
             <div class="index-headline">
@@ -37,7 +37,7 @@
             <div class="index-feature clear">
                 <div class="index-feature-text">
                     <h2>Настоящий городок</h2>
-                    <span>№1</span>
+                    <span>— №1 —</span>
                     <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
                 </div>
 
@@ -70,7 +70,7 @@
                 </div>
                 <div class="index-feature-text">
                     <h2>Там есть мост дьвола</h2>
-                    <span>№2</span>
+                    <span>— №2 —</span>
                     <p>Да, по нему можно пройти!Если конечно вы осмелитесь</p>
                 </div>
 
@@ -79,17 +79,17 @@
 
                 <div class="feature-item-text">
                     <h2>Небольшая площадь</h2>
-                    <span>№3</span>
+                    <span>— №3 — </span>
                     <p>Все достопримечательности находятся очень близко</p>
                 </div>
                 <div class="feature-item-text">
                     <h2>Красивая дорога</h2>
-                    <span>№4</span>
+                    <span>— №4 — </span>
                     <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                 </div>
                 <div class="feature-item-text">
                     <h2>Мало туристов</h2>
-                    <span>№5</span>
+                    <span>— №5 — </span>
                     <p>Большинство едет в Гранд каньон и толпится там</p>
                 </div>
 
@@ -100,37 +100,42 @@
                 <p class="feedback-tip">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
                 <a href="form.html">Поиск гостиницы в Седоне</a>
                 <div class="feedback-form">
-                    <form class="feedback-form" action="/sedons-mail" method="post"></form>
-                </div>
-                <div class="special">
-                    <div class="feedback-form-control">
-                        <div class="feedback-form-control-datefrom">
-                            <label for="from">Дата заезда:</label>
-                            <input class="feedback-form-from" type="text" name="text" id="from" value="" placeholder="24 апреля 2017">
+                    <form action="/">
+                        <div class="popup-form-control clearfix">
+                            <label for="">Дата заезда:</label>
+                            <input type="text" />
                         </div>
-                        <div class="feedback-form-control-dateto">
-                            <label for="to">Дата выезда:</label>
-                            <input class="feedback-form-to" type="text" name="date" id="to" value="" placeholder="4 июля 2017">
+                        <div class="popup-form-control clearfix">
+                            <label for="">Дата заезда:</label>
+                            <input type="text" />
                         </div>
-                        <div class="feedback-form-control-adults">
-                            <label for="adults">Взрослые</label>
-                            <input class="feedback-form-adults" type="number" min="1" max="30" id="adults">
+                        <div class="clearfix">
+                            <div class="popup-form-control-half">
+                                <label for="">Взрослые:</label>
+                                <div class="popup-form-count">
+                                    <button>-</button>
+                                    <input type="text" />
+                                    <button>+</button>
+                                </div>
+                            </div>
+                            <div class="popup-form-control-half">
+                                <label for="">Дети:</label>
+                                <div class="popup-form-count">
+                                    <button>-</button>
+                                    <input type="text" />
+                                    <button>+</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="feedback-form-control-children">
-                            <label for="children">Дети</label>
-                            <input class="feedback-form-children" type="number" min="1" max="30" id="children">
-                        </div>
-                    </div>
-                    <input class="feedback-form-submit" type="submit" value="Найти">
-                </div>
-
-                <div class="map ">
-
+                        <button class="feedback-form-submit" type="submit" class="popup-form-submit">Найти</button>
+                    </form>
                 </div>
             </div>
-            <div class="feedback-form-buttons">
+
+            <div class="map">
 
             </div>
+
 
         </main>
         <footer class="main-footer clear">

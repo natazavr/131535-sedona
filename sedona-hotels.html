@@ -25,32 +25,42 @@
 
         </header>
         <main>
+            <div class="filter-img clear"></div>
+
             <div class="filter-form">
                 <form action="/sedona-mail" method="post">
 
                     <div class="filter-form-infrastructure">
                         <h2>Инфраструктура</h2>
-                        <label for="pool">
-                            <input type="checkbox" name="pool" checked>Бассеин
-                        </label>
-                        <label for="parking">
-                            <input type="checkbox" name="parking">Парковка
-                        </label>
-                        <label for="wifi">
-                            <input type="checkbox" name="wifi">Wi-fi
-                        </label>
+                        <div>
+                            <input type="checkbox" name="pool" checked>
+                            <label for="pool">Бассеин</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="parking">
+                            <label for="parking">Парковка </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="wifi">
+                            <label for="wifi">Wi-fi </label>
+                        </div>
+
                     </div>
                     <div class="filter-form-type">
                         <h2>Тип жилья</h2>
-                        <label for="hotel">
-                            <input type="checkbox" name="hotel" checked>Гостиница
-                        </label>
-                        <label for="motel">
-                            <input type="checkbox" name="motel" checked>Мотель
-                        </label>
-                        <label for="apart">
-                            <input type="checkbox" name="apart" checked>Апартаменты
-                        </label>
+                        <div>
+                            <input type="checkbox" name="hotel" checked>
+                            <label for="hotel">Гостиница </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="motel" checked>
+                            <label for="motel">Мотель </label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="apart" checked>
+                            <label for="apart">Апартаменты</label>
+                        </div>
+
                     </div>
                 </form>
 
@@ -82,23 +92,30 @@
                 </div>
             </div>
 
-            <div class="filter-list">
-                <ul>
-                    <li>
-                        <h3>Найдено:3</h3></li>
-                    <li><span>Сортировка</span></li>
-                    <li><a href="">По цене</a></li>
-                    <li><a href="">По типу</a></li>
-                    <li><a href="">По рейтингу</a></li>
-                    <li>
-                        <a href=""><img src="img/arrows.jpg"></a>
-                    </li>
+            <div class="inner-container clear">
+                <div class="filter-list">
 
 
-                </ul>
+                    <h3>Найдено: 3</h3>
+                    <span>Сортировка:</span>
+                    <ul>
+                        <li><a href="">По цене</a></li>
+                        <li><a href="">По типу</a></li>
+                        <li><a href="">По рейтингу</a></li>
+                    </ul>
+                    <ul class="filter-rate">
+                        <li>
+                            <a href=""><img src="img/arroe-grey.png"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="img/arrow-active.png"></a>
+                        </li>
 
-                <section class="hotel-list">
-                    <div class="hotel-list-item">
+
+                    </ul>
+                </div>
+                <section class="hotel-list clear">
+                    <div class="hotel-list-item clear">
                         <div class="hotel-list-img"><img src="img/hotel-amara.jpg"></div>
                         <div class="hotel-list-info">
                             <h2>Amara resort & spa</h2>
@@ -106,33 +123,29 @@
                             <span class="hotel-list-price">от 4000 р.</span>
                         </div>
 
-                        <div class="hotel-list-buttons"><a class="btn" href="#">Подробнее</a></div>
+                        <div class="hotel-list-buttons-more"><a class="btn" href="#">Подробнее</a></div>
                         <div class="hotel-list-buttons"><a class="btn" href="#">Забронировать</a></div>
-                        <div class="rate">Рейтинг:8,5</div>
-                        <div class="hotel-item-stars">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                        <div class="rate">Рейтинг: 8,5</div>
+                        <div class="hotel-stars-amara">
+                            <img src="img/raiting-stars-4.png">
+
                         </div>
                     </div>
-                    <div class="hotel-list-item">
+                    <div class="hotel-list-item clear">
                         <div class="hotel-list-img"><img src="img/hotel-desert.jpg"></div>
                         <div class="hotel-list-info">
                             <h2>Desert Quail Inn</h2>
                             <span class="hotel-list-price">Мотель</span>
                             <span class="hotel-list-price">от 3000 р.</span>
                         </div>
-                        <div class="hotel-list-buttons"><a class="btn" href="#">Подробнее</a></div>
+                        <div class="hotel-list-buttons-more"><a class="btn" href="#">Подробнее</a></div>
                         <div class="hotel-list-buttons"><a class="btn" href="#">Забронировать</a></div>
-                        <div class="rate">Рейтинг:8,9</div>
-                        <div class="hotel-item-stars">
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                        <div class="rate">Рейтинг: 8,9</div>
+                        <div class="hotel-stars-desert">
+                            <img src="img/raiting-stars-3.png">
                         </div>
                     </div>
-                    <div class="hotel-list-item">
+                    <div class="hotel-list-item clear ">
                         <div class="hotel-list-img"><img src="img/hotel-villas.jpg"></div>
 
 
@@ -141,15 +154,15 @@
                             <span class="hotel-list-price">Апартаменты</span>
                             <span class="hotel-list-price">от 2000 р.</span>
                         </div>
-                        <div class="hotel-list-buttons"><a class="btn" href="#">Подробнее</a></div>
+                        <div class="hotel-list-buttons-more"><a class="btn" href="#">Подробнее</a></div>
                         <div class="hotel-list-buttons"><a class="btn" href="#">Забронировать</a></div>
-                        <div class="rate">Рейтинг:9,2</div>
-                        <div class="hotel-item-stars">
-                            <span></span>
-                            <span></span>
+                        <div class="rate">Рейтинг: 9,2</div>
+                        <div class="hotel-item-villas">
+                            <img src="img/raiting-stars-2.png">
                         </div>
                     </div>
                 </section>
+            </div>
         </main>
         <footer class="main-footer clear">
 
@@ -165,7 +178,7 @@
             </div>
 
         </footer>
-        </div>
+    </div>
 </body>
 
 </html>
