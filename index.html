@@ -11,7 +11,7 @@
     <div class="container">
         <header class="main-header clear">
             <div class="index-logo">
-                <a href=""><img src="img/sedona-logo.png" height="56" width="67"></a>
+                <a href="index.html"><img src="img/sedona-logo.png" height="70" width="138"></a>
             </div>
 
             <nav class="main-navigation">
@@ -19,7 +19,7 @@
                     <li><a href="#">Информация</a></li>
                     <li><a href="#">Фото и видео</a></li>
                     <li><a href="#">Карта штата</a></li>
-                    <li><a href="#">Гостиницы</a></li>
+                    <li><a href="sedona-hotels.html">Гостиницы</a></li>
                 </ul>
             </nav>
 
@@ -28,9 +28,6 @@
 
             <div class="main-img clear">
 
-                <img src="img/sedona-text-into.png" alt="" height="86" width="256">
-                <img src="img/sedona-letter.png" alt="" height="78" width="458">
-                <img src="img/sedona-text.png" alt="" height="80" width="296">
 
             </div>
             <div class="index-headline">
@@ -97,35 +94,44 @@
                 </div>
 
             </div>
+
             <div class="feedback clear">
                 <h3>Заинтересовались?</h3>
                 <p class="feedback-tip">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+                <a href="form.html">Поиск гостиницы в Седоне</a>
+                <div class="feedback-form">
+                    <form class="feedback-form" action="/sedons-mail" method="post"></form>
+                </div>
+                <div class="special">
+                    <div class="feedback-form-control">
+                        <div class="feedback-form-control-datefrom">
+                            <label for="from">Дата заезда:</label>
+                            <input class="feedback-form-from" type="text" name="text" id="from" value="" placeholder="24 апреля 2017">
+                        </div>
+                        <div class="feedback-form-control-dateto">
+                            <label for="to">Дата выезда:</label>
+                            <input class="feedback-form-to" type="text" name="date" id="to" value="" placeholder="4 июля 2017">
+                        </div>
+                        <div class="feedback-form-control-adults">
+                            <label for="adults">Взрослые</label>
+                            <input class="feedback-form-adults" type="number" min="1" max="30" id="adults">
+                        </div>
+                        <div class="feedback-form-control-children">
+                            <label for="children">Дети</label>
+                            <input class="feedback-form-children" type="number" min="1" max="30" id="children">
+                        </div>
+                    </div>
+                    <input class="feedback-form-submit" type="submit" value="Найти">
+                </div>
 
-                <form class="feedback-form" action="/sedons-mail" method="post">
-                    <a href="form.html">Поиск гостиницы в Седоне</a>
-                    <div class="feedback-form-control">
-                        <label for="from">Дата заезда:</label>
-                        <input type="date" name="date" id="from"><img src="img/calendar.jpg" width="10" height="10"></div>
-                    <div class="feedback-form-control">
-                        <label for="to">Дата выезда:</label>
-                        <input type="date" name="date" id="to"><img src="img/calendar.jpg" width="10" height="10"></div>
-                    <div class="feedback-form-control">
-                        <label for="adults">Взрослые</label>
-                        <input type="number" min="1" max="30" id="adults">
-                    </div>
-                    <div class="feedback-form-control">
-                        <label for="children">Дети</label>
-                        <input type="number" min="1" max="30" id="children">
-                    </div>
-                    <div class="feedback-form-buttons">
-                        <input type="submit" value="Найти">
-                    </div>
-                </form>
+                <div class="map ">
+
+                </div>
+            </div>
+            <div class="feedback-form-buttons">
+
             </div>
 
-            <div class="map">
-
-            </div>
         </main>
         <footer class="main-footer clear">
 
