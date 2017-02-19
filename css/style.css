@@ -212,12 +212,16 @@ span {
 }
 
 .feedback a {
-    padding-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    top: -30px;
     padding-left: 140px;
     padding-right: 140px;
     background-color: #766357;
     color: white;
     text-decoration: none;
+    text-align: center;
     line-height: 10%;
     font-size: 21px;
     box-sizing: border-box;
@@ -245,27 +249,30 @@ span {
 
 .popup-form-control input {
     float: left;
-    width: 350px;
+    width: 335px;
     background-color: #f2f2f2;
     border: none;
     color: #000000;
     text-transform: uppercase;
+    font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 20px;
     background-image: url(../img/calendar.png);
     background-repeat: no-repeat;
     background-position: 98% 50%;
 }
 
 .popup-form-control-half {
-    width: 50%;
     float: left;
     margin-bottom: 20px;
 }
 
 .popup-form-control-half label {
     float: left;
-    width: 130px;
+    width: 110px;
+    padding-right: 15px;
+    text-align: center;
     padding-top: 5px;
     padding-bottom: 45px;
 }
